@@ -1,0 +1,415 @@
+/*globales*/
+body {
+    font-family: Arial;
+    color: #000;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 14px;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+/*header*/
+header {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    /*border: #000 2px solid;*/
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+
+
+
+.logo {
+    font-family: Beth Ellen;
+    font-size: 40px;
+    color: #6D0AD3;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    display: flex;
+    position: absolute;
+    margin-left: 5px;
+    z-index: 5;
+    
+    
+}
+
+    
+
+.logo_1 {
+    width: 45px;
+    height: 45px;
+    background: #D1FFA2;
+    position: absolute;
+    margin-left: -5px;
+    z-index: 4;
+
+}
+.logo_2 {
+    width: 45px;
+    height: 45px;
+    background: #0098EF;
+    position: absolute;
+    margin-left: -10px;
+    z-index: 3;
+}
+.logo_3 {
+    width: 45px;
+    height: 45px;
+    background: #00CF95;
+    position: absolute;
+    margin-left: -15px;
+    z-index: 2;
+}
+.logo_4 {
+    width: 45px;
+    height: 45px;
+    background: #6D0AD3;
+    position: absolute;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.logo_1 {
+    transform: rotate(45deg);
+}
+.logo_2 {
+    transform: rotate(45deg);
+}
+.logo_3 {
+    transform: rotate(45deg);
+}
+.logo_4 {
+    transform: rotate(45deg);
+}
+
+
+/*main*/
+
+
+/**/
+
+.contenedor_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+  
+  
+    
+}
+ 
+.presentacion {
+    /*border: #542 2px solid;*/
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    
+}
+
+.barra_lateral {
+    width: 20px;
+    height: 120px;
+    background: #80E7CA;
+}
+
+.hola_hello {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.soy {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.profesion {
+    font-weight: bold;
+    color: #00cf95;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.gracias_por {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.gracias {
+    padding-left: 20px;
+}
+
+.button_redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /*border: 1px solid #00CF95;*/
+}
+
+.button_descargar {
+    
+    width: 160px;
+    height: 45px;
+    background-color: #6D0AD3;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.button_descargar:hover {
+    border-color: grey;
+}
+
+.redes_sociales ul {
+    display: flex;
+}
+
+.redes_sociales li {
+    margin-left: 15px;
+}
+
+
+
+
+/**/
+
+.perfil_curriculum {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    /*border: solid 2px #000;*/
+
+    
+    
+   
+}
+
+.posterior_perfil {
+    width: 325px;
+    height: 325px;
+    background: #D1FFA2;
+    border-radius: 50%;
+    padding-left: 20px;
+    position: absolute;
+    
+}
+
+.perfil_img {
+    width: 300px;
+    height: 280px;
+    border-radius: 50%;
+    padding-left: 10px;
+    position: absolute;
+}
+
+
+.likes_tweet {
+    padding-top: 50px;
+    /*border: #00CF95 solid 2px;*/
+}
+
+
+
+
+
+
+
+
+
+.down {
+    font-weight: bold;
+    font-size: 30px;
+    color: #00cf95;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*border: solid 1px #000;*/
+    
+}
+
+
+
+
+
+
+/**/
+
+
+.portafolio_titulo {
+    font-weight: bold;
+    font-size: 30px;
+    color: #0098EF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*border: solid 1px #000;*/
+}
+
+
+
+
+.imagenes_portafolio {
+    /*border: 1px blue solid;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.contenedor_efecto {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.contenedor_efecto .contenedor_figure {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    /*overflow oculta todo lo que esta afuera del contenedor con medidas*/
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px;
+
+}
+
+.contenedor_efecto .contenedor_img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(109, 10, 211, 0.8);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    
+    
+}
+
+.contenedor_figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+
+/**/
+.servises_titulo {
+    font-weight: bold;
+    font-size: 30px;
+    color: #0098EF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*border: solid 1px #000;*/
+}
+
+.contenedor_servicios {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+
+
+.servicios_efecto {
+    
+    width: 310px;
+    height: 220px;
+    background: #00CF95;
+    border: 5px solid #D1FFA2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+    
+    
+}
+
+.recuadro_servicio {
+    position: relative;
+    /*overflow oculta todo lo que esta afuera del contenedor con medidas*/
+    overflow: hidden;
+    
+    
+}
+
+.img_services {
+    width: 60px;
+    height: 45px;
+    transition: all 500ms ease-out;
+    display: flex;
+    justify-content: left;
+}
+
+.capa_serv {
+    position: absolute;
+    top: 0;
+    width: 156px;
+    height: 48px;
+    background: #5A0CB0;
+    transition: all 500ms ease-out;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.recuadro_servicio:hover > .capa_serv {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+
+
