@@ -26,10 +26,11 @@ a {
 /*header*/
 header {
     display: flex;
-    padding: 25px;
+    padding: 50px;
     justify-content: space-between;
     align-items: center;
     /*border: #000 2px solid;*/
+    
 }
 
 header ul {
@@ -40,6 +41,13 @@ header li {
     margin-left: 30px;
     font-size: 14px;
 }
+
+.cuadros_logo {
+    position: relative;
+    top: -20px;
+
+}
+
 
 
 
@@ -348,9 +356,9 @@ header li {
 }
 
 .contenedor_servicios {
-    width: 80%;
+    /*width: 80%;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     
 
@@ -412,4 +420,84 @@ header li {
 
 
 
+/**/
+.articulo_1 {
+    border: 1px solid #000;
+}
 
+.articulo_2 {
+    border: 1px solid #000;
+}
+
+.articulo_3 {
+    border: 1px solid #000;
+}
+
+.articulo_4 {
+    border: 1px solid #000;
+}
+
+.articulo_5 {
+    border: 1px solid #000;
+}
+
+
+.buttons {
+    border: 1px solid #000;
+}
+
+.p_section {
+    font-size: 11px;
+}
+
+
+
+
+
+.rejillas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    
+}
+
+.articulo_1 {
+    grid-row: 1/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text_email {
+    width: 306px;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+
+
+.but_suscribete {
+    width: 127px;
+    height: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
