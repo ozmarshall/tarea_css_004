@@ -333,7 +333,6 @@ header li {
     font-size: 18px;
     color: #fff;
     
-    
 }
 
 .contenedor_figure:hover > .capa {
@@ -360,10 +359,8 @@ header li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-
+  
 }
-
 
 
 .servicios_efecto {
@@ -376,18 +373,12 @@ header li {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
-    
-    
-    
 }
 
 .recuadro_servicio {
     position: relative;
     /*overflow oculta todo lo que esta afuera del contenedor con medidas*/
     overflow: hidden;
-    
-    
 }
 
 .img_services {
@@ -418,27 +409,95 @@ header li {
 }
 
 
-
-
 /**/
+.titulo_blog {
+    color: #0098EF;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.nuevo_rey {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.rectangulo_lateral_1 {
+    width: 4px;
+    height: 40px;
+    background:#5A0CB0;
+    display: flex;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.css3 {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+
+.rectangulo_lateral_2 {
+    width: 4px;
+    height: 20px;
+    background:#C4C4C4;
+    display: flex;
+    position: absolute;
+    
+}
+.animation {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+.js_engine {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+
 .articulo_1 {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    grid-row: 1/3;
 }
 
 .articulo_2 {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    display: flex;
 }
+
 
 .articulo_3 {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
+
+
 
 .articulo_4 {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    display: flex;
 }
 
+
+
 .articulo_5 {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    display: flex;
 }
 
 
@@ -449,41 +508,12 @@ header li {
 .p_section {
     font-size: 11px;
 }
-
-
-
-
-
 .rejillas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
     
 }
-
-.articulo_1 {
-    grid-row: 1/3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .text_email {
     width: 306px;
@@ -492,12 +522,99 @@ header li {
     border-top-left-radius: 10px;
 }
 
-
-
-
 .but_suscribete {
     width: 127px;
     height: 50px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    background: #6D0AD3;
+    font-size: 12px;
+    color: #fff;
 }
+
+.rejilla_contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    
+}
+.area_contacto {
+    resize: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 1px #00CF95;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.textarea:hover {
+    border-color: #6D0AD3;
+}
+
+.area_cuentanos_mas {
+    resize: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: solid 1px #00CF95;
+}
+
+
+.titulo_contacto {
+    color: #0098EF;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.boton_contacto {
+    width: 127px;
+    height: 50px;
+    background: #6D0AD3;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.Contenedor_boton {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.button_contacto:hover {
+    border-color: grey;
+
+}
+
+
+hr { 
+    width: 100%;
+    background: #00CF95; 
+    margin-bottom: 50px; 
+}
+
+  
+
+.contenedor_footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.visitarnos {
+    color: #00CF95;
+    font-size: 28px;
+    
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
