@@ -1,0 +1,51 @@
+/*footer*/
+.contenedor_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.visitarnos {
+  color: #00CF95;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 40px;
+}
+
+.nav_footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_footer li {
+  position: relative;
+  padding: 15px;
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+.centro {
+  position: absolute;
+  padding-left: 190px;
+}
+
+.desde {
+  text-align: center;
+  font-size: 12px;
+  color: #262626;
+}

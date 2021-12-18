@@ -1,0 +1,41 @@
+/*footer*/
+
+.contenedor_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.visitarnos {
+    color: #00CF95;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.nav_footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_footer li {
+    position: relative;
+    padding: 15px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.centro  {
+    position: absolute;
+    padding-left: 190px;
+    
+}
+
+.desde {
+    text-align: center;
+    font-size: 12px;
+    color: #262626;
+}
+
